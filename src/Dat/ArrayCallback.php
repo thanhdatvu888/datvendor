@@ -10,6 +10,7 @@ class ArrayCallback {
         }
         return $result;
     }
+    
     public static function reduce($arr, $callback, $inital=null){
         $sum = $inital;
         if($arr && is_array($arr)){
@@ -19,6 +20,8 @@ class ArrayCallback {
         }
         return $sum;
     }
+
+
 }
 
 ?>
