@@ -9,11 +9,13 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.6.0"
+        "php": ">=5.6.0",
+        "thanhdat/datvendor": "dev-master"
     },
     "autoload": {
         "psr-0": {
-            "HelloWorld": "src/"
+            "HelloWorld": "src/",
+            "Dat": "src/"
         }
     }
 }
